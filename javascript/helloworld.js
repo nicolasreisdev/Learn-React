@@ -1,5 +1,11 @@
 /* Comandos Básicos */
 
+/*
+comando no terminal para executar o arquivo:
+node helloworld.js
+*/
+
+
 console.log("Hello World!"); // Impressão de texto no console
 
 // Variáveis e Constantes
