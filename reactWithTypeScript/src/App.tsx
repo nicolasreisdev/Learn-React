@@ -1,7 +1,7 @@
 // importando o componente de cabeçalho
-import { Header } from './components/Header' // componente de cabeçalho
-import { Sidebar } from './components/Sidebar'
-import { Post } from './components/Post'
+import { Header } from './components/Header.tsx';// componente de cabeçalho
+import { Sidebar } from './components/Sidebar.tsx';
+import { Post, PostType } from './components/Post.tsx';
 
 // importando o css do componente
 import  style from './App.module.css'
@@ -13,7 +13,11 @@ import './global.css' // modelo de css global
 // content: string
 
 
-const posts = [
+
+
+
+
+const posts: PostType[] = [
   {
     id: 1,
     author: {
@@ -61,9 +65,7 @@ function App() {
           {posts.map(post => {
               return( <Post 
                     key={post.id}
-                    author={post.author}
-                    publishedAt={post.publishedAt}
-                    content={post.content}
+                    post={post}
                     />
               )
           })} 
