@@ -1,0 +1,1 @@
+- npx json-server server.json -p (porta) -w -d 500 (Para que o json seja aplicado como API)
