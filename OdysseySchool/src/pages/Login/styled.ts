@@ -27,8 +27,10 @@ export const BoxLeft = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: ${props => props.theme['black']};
+    color: ${props => props.theme['gray-900']};
     background-color: ${props => props.theme['orangeLight']};
+    font-family: 'Work Sans';
+
 
     h2{
         margin-bottom: 2rem;
@@ -81,7 +83,7 @@ export const CheckButton = styled.button`
 
     cursor: pointer;
 
-    background-color: ${props => props.theme['orange']};
+    background-color: ${props => props.theme['orangeDark']};
     color: ${props => props.theme['black']};
 
     &:disabled{

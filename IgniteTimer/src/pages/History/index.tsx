@@ -20,8 +20,8 @@ export function History(){
                     <thead>
                         <tr>
                             <th>Tarefa</th>
-                            <th>Duração</th>
-                            <th>Inicio</th>
+                            <th>Data de entrega</th>
+                            <th>Link</th>
                             <th>Status</th>
                         </tr>
                     </thead>

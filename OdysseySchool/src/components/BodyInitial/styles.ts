@@ -18,10 +18,13 @@ export const BoxLeft = styled.div`
     color: ${props => props.theme['black']};
     background-color: ${props => props.theme['white']};
     margin-right: 1em;
+    font-family: 'Montserrat Alternates';
 
     h1 {
-        font-family: 'Montserrat Alternates', sans-serif;
-        font-size: 74px;
+        font-family: 'Montserrat Alternates';
+        font-size: 80px;
+        font-weight: 800;
+        line-height: 100px;
     }
     p {
         font-family: 'Work Sans', serif;
